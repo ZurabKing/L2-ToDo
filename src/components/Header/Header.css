@@ -1,0 +1,26 @@
+.header {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.out-btn {
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(43, 43, 235);
+  padding: 7px 16px;
+  transition: 0.5s;
+}
+
+.out-btn:hover {
+  background-color: red;
+}

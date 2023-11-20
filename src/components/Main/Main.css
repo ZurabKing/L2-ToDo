@@ -1,0 +1,152 @@
+main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.input__container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 360px;
+}
+
+.input__title {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 20px;
+  width: 360px;
+  font-size: 16px;
+  line-height: 1px;
+}
+.list__container {
+  width: 100%;
+}
+
+.date__text-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input__date {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textarea__des {
+  width: 100%;
+  min-height: 150px;
+  height: fit-content;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  resize: none;
+}
+
+.input__container button {
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(43, 43, 235);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.3s;
+}
+
+.input__container button:hover {
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.task__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.task__item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.task__item label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.delete__task-btn {
+  width: 20px;
+  height: 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.main__task-text {
+  font-size: 18px;
+}
+
+.main__task-description {
+  font-size: 14px;
+}
+
+.main__content-task {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.description__title {
+  margin-top: 5px;
+}
+
+.main__info-btn {
+  display: flex;
+  align-content: center;
+  gap: 15px;
+}
+
+.task__item.completed .main__content-task {
+  text-decoration: line-through;
+}
+
+.task__item.completed .main__task-text,
+.task__item.completed .main__task-description {
+  text-decoration: line-through;
+}
+
+.edit__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
