@@ -1,6 +1,5 @@
 import React from "react";
 import { Todo } from "../Todo/Todo.jsx";
-import { IconDelete, IconFix, IconFinish } from "../../assets/icons/index.js";
 
 export const TodoList = ({ allTasks, removeTask, toggleTaskCompletion }) => {
   return (

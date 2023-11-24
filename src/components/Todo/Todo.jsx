@@ -42,11 +42,6 @@ export const Todo = ({ removeTask, toggleTaskCompletion, item }) => {
               value={editedText}
               onChange={(e) => setEditedText(e.target.value)}
             />
-            {/* <input
-              type="text"
-              value={editedText}
-              onChange={(e) => setEditedText(e.target.value)}
-            /> */}
             <textarea
               value={editedDescription}
               onChange={(e) => setEditedDescription(e.target.value)}
